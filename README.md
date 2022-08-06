@@ -43,7 +43,7 @@ processors:
 
 ![](C4-6-2_Nginx_log.jpg)
 
-Использовал следующую схему при передаче логов Nginx в Elasticsearch с последующим отображение логов в Kibana:
+Использовал следующую схему при передаче логов Nginx в Elasticsearch с последующим отображением логов в Kibana:
 
  Nginx -> remote rsyslog -> filebeat -> elasticsearch -> kibana
 
